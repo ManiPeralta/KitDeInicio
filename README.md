@@ -4,6 +4,8 @@ Este es un Kit de inicio de un sistema de manejo de contenido (páginas web) con
 
 ### Proceso
 Bajar el archivo "Kit_de_Inicio_1.0.0.zip" que puedes configurar en una instalacion limpia de Umbraco version 8.14.0 
+#### Antes de instalar el Kit
+Para el Kit funcione sin percances, debes modificar la configuracion del Modo de Models Builder en el archivo "Web.config" y reemplazas la linea "<add key="Umbraco.ModelsBuilder.ModelsMode" value="PureLive" />" por "<add key="Umbraco.ModelsBuilder.ModelsMode" value="LiveAppData" />"
 
 ### Terminología
 La sección administrativa, a la que en Ingles le llaman (backoffice = detrás de la oficina), aquí utilizaré la expresión "la oficina".
